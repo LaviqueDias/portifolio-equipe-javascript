@@ -1,0 +1,165 @@
+<!-- Sessão pessoa (agora com fundo branco e container interno azul) -->
+<section id="section-kevyn" class="bg-white py-12 md:py-16 scroll-mt-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- container interno azul -->
+        <div class="relative bg-blue-600 text-white rounded-2xl shadow-xl overflow-hidden">
+            <!-- Cabeçalho: Foto + Nome -->
+            <div class="grid grid-cols-1 md:grid-cols-[9rem_1fr] items-center px-6 sm:px-10 py-6">
+                <div>
+                    <img src="assets/images/fotoKevyn.jpg" alt="Foto de pessoa Dias"
+                        class="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-4 border-black shadow-md" />
+                </div>
+                <div class="p-0 md:pl-4">
+                    <h1 class="text-3xl md:text-4xl font-extrabold">Kevyn Lohan</h1>
+                    <p class="mt-3 text-white/90">
+                        Desenvolvedor Júnior BackEnd, performance e boas práticas.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <a href="#projetos-pessoa"
+                            class="inline-flex items-center rounded-xl px-5 py-2.5 bg-white text-blue-700 font-semibold hover:bg-white/90 transition">
+                            Ver projetos
+                        </a>
+                        <a href="#contatos-pessoa"
+                            class="inline-flex items-center rounded-xl px-5 py-2.5 ring-1 ring-white/50 text-white hover:bg-white/10 font-semibold transition">
+                            Contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sobre (em azul, com divisória clara) -->
+            <div class="px-6 sm:px-10 py-6 border-t border-white/10">
+                <h2 class="text-2xl font-bold">Sobre</h2>
+                <p class="mt-3 text-white/90 leading-relaxed">
+                    Sou Kevyn Lohan, Desenvolvedor Júnior com foco em backend. Atualmente, atuo na FDS Games, onde desenvolvo sistemas internos utilizando Go (Golang), com experiência também em Java e Python. Tenho familiaridade com ferramentas de apoio ao desenvolvimento, como Git e Postman, além de boas práticas no ciclo de versionamento e integração.
+
+                    Estou cursando Sistemas da Informação (2024), com direcionamento para a área de engenharia e desenvolvimento de software backend. Tenho perfil analítico, disciplina de aprendizado contínuo e visão empreendedora, buscando sempre criar soluções escaláveis e de impacto.
+
+                    Meus principais objetivos são evoluir como desenvolvedor backend, participar de projetos desafiadores em larga escala e consolidar minha carreira na área de tecnologia.
+                </p>
+            </div>
+
+            <!-- Tecnologias (chips claros que invertem no hover) -->
+            <div class="px-6 sm:px-10 py-6 border-t border-white/10">
+                <h2 class="text-2xl font-bold">Tecnologias</h2>
+                <ul class="mt-4 flex flex-wrap gap-2">
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Go</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Gin</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Java</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        JWT</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        SQL</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Postman</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Scrum</li>
+                    <li
+                        class="px-3 py-1 rounded-full bg-white/10 text-white text-sm font-medium ring-1 ring-white/20 transition-colors duration-200 hover:bg-white hover:text-blue-700">
+                        Kanban</li>
+                </ul>
+            </div>
+
+            <!-- Projetos (cards brancos para contraste) -->
+            <div id="projetos-pessoa" class="px-6 sm:px-10 py-6 border-t border-white/10">
+                <div class="flex items-baseline justify-between gap-4">
+                    <h2 class="text-2xl font-bold">Projetos</h2>
+                    <a href="https://github.com/kevynlohan05" target="_blank"
+                        class="text-white hover:text-white/90 font-semibold underline underline-offset-4">
+                        Ver GitHub
+                    </a>
+                </div>
+
+                <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Card 1 -->
+                    <a href="https://github.com/kevynlohan05/meu-primeiro-crud-go" target="_blank"
+                        class="group block rounded-xl bg-white border border-white/0 hover:border-blue-300 hover:shadow-lg transition overflow-hidden">
+                        <img src="assets/images/img-projeto1.jpg" alt="Prévia do projeto API CRUD em Go"
+                            class="h-36 w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                            loading="lazy" />
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 group-hover:text-blue-700">Projeto 1</h3>
+                            <p class="mt-1 text-sm text-gray-600">
+                                Desenvolvi uma API RESTful em Go (Golang) integrada ao Asana para gerenciamento de chamados, com autenticação de usuários, CRUD completo e persistência em MySQL, garantindo controle eficiente e integração direta com a plataforma.
+                            </p>
+                            <div class="mt-3 flex flex-wrap gap-2">
+                                <span class="text-xs px-2 py-0.5 rounded bg-blue-50 text-blue-700">Go</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-emerald-50 text-emerald-700">Swagger</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-gray-500 text-white">JWT</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-blue-50 text-blue-700">MySQL</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="https://github.com/pessoaDias/meu-app-streamlit" target="_blank"
+                        class="group block rounded-xl bg-white border border-white/0 hover:border-blue-300 hover:shadow-lg transition overflow-hidden">
+                        <img src="assets/images/streamlit.jpg" alt="Prévia do projeto 2"
+                            class="h-36 w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                            loading="lazy" />
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 group-hover:text-blue-700">Projeto 2</h3>
+                            <p class="mt-1 text-sm text-gray-600">
+                                Projeto integrador com Streamlit para criar uma aplicação interativa em Python.
+                            </p>
+                            <div class="mt-3 flex flex-wrap gap-2">
+                                <span class="text-xs px-2 py-0.5 rounded bg-emerald-50 text-emerald-700">Python</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-gray-500 text-white">Pandas</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-violet-500 text-white">Matplotlib</span>
+                                <span class="text-xs px-2 py-0.5 rounded bg-blue-50 text-blue-700">Streamlit</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contatos (mantém pílulas, em azul ao redor) -->
+            <div id="contatos-pessoa" class="px-6 sm:px-10 py-8 border-t border-white/10">
+                <h2 class="text-2xl font-bold">Contatos</h2>
+                <ul class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    <!-- Email -->
+                    <li class="flex justify-center">
+                        <a href="mailto:kevynlohan05@gmail.com"
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-100 text-gray-800 text-sm font-medium
+                      transition-colors duration-200 hover:bg-[#FF0000] hover:text-white cursor-pointer
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FF0000] focus-visible:ring-offset-2">
+                            <img src="assets/images/gmail.png" alt="" class="w-4 h-4" aria-hidden="true" />
+                            <span>Email</span>
+                        </a>
+                    </li>
+
+                    <!-- LinkedIn -->
+                    <li class="flex justify-center">
+                        <a href="https://www.linkedin.com/in/kevyn-lohan-572069342" target="_blank"
+                            rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-100 text-gray-800 text-sm font-medium
+                      transition-colors duration-200 hover:bg-blue-600 hover:text-white cursor-pointer">
+                            <img src="assets/images/linkedin.png" alt="" class="w-4 h-4" aria-hidden="true" />
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+
+                    <!-- Telefone / WhatsApp -->
+                    <li class="flex justify-center">
+                        <a href="https://wa.me/83986019435" target="_blank" rel="noopener noreferrer"
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-100 text-gray-800 text-sm font-medium
+                      transition-colors duration-200 hover:bg-[#25D366] hover:text-white cursor-pointer
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2">
+                            <img src="assets/images/whatsapp.png" alt="" class="w-4 h-4" aria-hidden="true" />
+                            <span>Telefone</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
